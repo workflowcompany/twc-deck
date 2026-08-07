@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Workflow Company — Te ayudamos a convertir operaciones coordinadas por correo, Excel y WhatsApp en un sistema donde todo el trabajo se ve, se mide y avanza.">
+  <title>The Workflow Company — One Pager</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=chillax@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#slide-1">Saltar al contenido</a>
+
+  <nav class="progress-nav" aria-label="Progreso del deck">
+    <ol class="progress-dots"></ol>
+  </nav>
+
+  <div class="deck-controls" aria-hidden="false">
+    <button type="button" class="nav-btn nav-btn--prev" aria-label="Slide anterior">
+      <span aria-hidden="true">←</span>
+    </button>
+    <button type="button" class="nav-btn nav-btn--next" aria-label="Slide siguiente">
+      <span aria-hidden="true">→</span>
+    </button>
+  </div>
+
+  <a
+    href="https://cal.com/the-workflow-company/30min"
+    class="sticky-cta"
+    target="_blank"
+    rel="noopener noreferrer"
+    hidden
+  >
+    Agendar 30 min
+  </a>
+
+  <main class="deck" id="deck">
+    <!-- Slide 1: HERO -->
+    <section class="slide slide--hero" id="slide-1" data-slide="1" aria-label="Hero">
+      <div class="slide-inner">
+        <div class="hero-brand">
+          <div class="hero-brand__logos">
+            <img src="assets/logo-23.png" alt="" class="brand-logo brand-logo--hero" width="200" height="200" aria-hidden="true">
+            <img src="assets/Consulting Partner Badge (9).png" alt="Notion Consulting Partner" class="partner-badge" width="72" height="72">
+          </div>
+        </div>
+        <h1 class="hero-title">
+          Tu empresa no tiene un problema de gente. Tiene un problema de <span class="hero-accent" data-reveal>sistema</span>.
+        </h1>
+        <p class="hero-subtitle">
+          Te ayudamos a convertir operaciones coordinadas por correo, Excel y WhatsApp en un sistema donde todo el trabajo se ve, se mide y avanza — sin perseguir a nadie.
+        </p>
+        <p class="hero-brand__name">The Workflow Company</p>
+      </div>
+    </section>
+
+    <!-- Slide 2: PROBLEMA VISUAL -->
+    <section class="slide slide--problem-visual" id="slide-2" data-slide="2" aria-label="Así operan hoy">
+      <div class="slide-inner slide-inner--wide">
+        <div class="problem-visual__header">
+          <h2 class="slide-heading slide-heading--compact">Así opera tu empresa hoy en día</h2>
+          <p class="problem-visual__subtitle">Correo, Excel, WhatsApp y la memoria de alguien. <strong>No es falta de esfuerzo — es falta de sistema.</strong></p>
+        </div>
+        <figure class="problem-visual__figure">
+          <img src="assets/pain_point.svg" alt="Diagrama del caos operativo: información dispersa entre correo, Excel, WhatsApp y múltiples personas" class="problem-visual__img">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Slide 3: DOLORES (todos en uno, navegación por tabs) -->
+    <section class="slide slide--pains" id="slide-3" data-slide="3" aria-label="¿Te identificas?">
+      <div class="slide-inner slide-inner--wide">
+        <div class="pains-intro">
+          <h2 class="section-label">¿Te identificas con alguno de estos hoy?</h2>
+          <p class="pains-intro__text">Si alguna de estas frases te suena familiar, no estás solo. Así se siente la operación cuando falta un sistema — y cada una tiene un costo real que se paga cada semana.</p>
+        </div>
+        <div class="pains-hub">
+          <div class="pains-nav" role="tablist" aria-label="Seleccionar dolor">
+            <button type="button" class="pains-tab is-active" role="tab" aria-selected="true" data-pain="0" tabindex="0">
+              <span class="pains-tab__num">01</span>
+              <span class="pains-tab__quote">"Nadie sabe en qué va nada."</span>
+            </button>
+            <button type="button" class="pains-tab" role="tab" aria-selected="false" data-pain="1" tabindex="-1">
+              <span class="pains-tab__num">02</span>
+              <span class="pains-tab__quote">"La información vive en seis lugares. Y en la cabeza de alguien."</span>
+            </button>
+            <button type="button" class="pains-tab" role="tab" aria-selected="false" data-pain="2" tabindex="-1">
+              <span class="pains-tab__num">03</span>
+              <span class="pains-tab__quote">"La reunión de seguimiento dura dos horas. Y es leer un Excel fila por fila."</span>
+            </button>
+            <button type="button" class="pains-tab" role="tab" aria-selected="false" data-pain="3" tabindex="-1">
+              <span class="pains-tab__num">04</span>
+              <span class="pains-tab__quote">"Reportar a gerencia toma días. Y aun así faltan datos."</span>
+            </button>
+            <button type="button" class="pains-tab" role="tab" aria-selected="false" data-pain="4" tabindex="-1">
+              <span class="pains-tab__num">05</span>
+              <span class="pains-tab__quote">"Ya intentamos organizarnos con una herramienta. El equipo volvió a lo de siempre."</span>
+            </button>
+          </div>
+
+          <div class="pains-panel">
+            <article class="pain-detail is-active" data-pain-panel="0" role="tabpanel">
+              <blockquote class="pain-quote">"Nadie sabe en qué va nada."</blockquote>
+              <p class="pain-body">Cada área coordina sus proyectos por correo. El estado real del trabajo vive en la bandeja de entrada de alguien.</p>
+              <div class="pain-meta">
+                <div class="pain-block">
+                  <p class="pain-label">El costo</p>
+                  <p class="pain-text">Tus líderes gastan la semana persiguiendo información, y las decisiones se toman con datos viejos.</p>
+                </div>
+                <div class="pain-block pain-block--resolved">
+                  <p class="pain-label">Resuelto se ve así</p>
+                  <p class="pain-text">Cada solicitud entra por un flujo con responsable, fecha y estado visible en tiempo real. El seguimiento deja de ser un interrogatorio.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="pain-detail" data-pain-panel="1" role="tabpanel" hidden>
+              <blockquote class="pain-quote">"La información vive en seis lugares. Y en la cabeza de alguien."</blockquote>
+              <p class="pain-body">Correo, WhatsApp, Excel, Drive, audios. Seis versiones del mismo archivo y ninguna es la buena.</p>
+              <div class="pain-meta">
+                <div class="pain-block">
+                  <p class="pain-label">El costo</p>
+                  <p class="pain-text">Horas por persona, cada semana, buscando información y repitiendo trabajo que ya estaba hecho.</p>
+                </div>
+                <div class="pain-block pain-block--resolved">
+                  <p class="pain-label">Resuelto se ve así</p>
+                  <p class="pain-text">Una sola fuente de verdad. Se busca una vez, se encuentra siempre. Recuperar 3–4 horas por persona a la semana es el resultado que diseñamos.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="pain-detail" data-pain-panel="2" role="tabpanel" hidden>
+              <blockquote class="pain-quote">"La reunión de seguimiento dura dos horas. Y es leer un Excel fila por fila."</blockquote>
+              <p class="pain-body">Este es el dolor que ya se normalizó: reuniones para enterarse, no para decidir.</p>
+              <div class="pain-meta">
+                <div class="pain-block">
+                  <p class="pain-label">El costo</p>
+                  <p class="pain-text">Multiplica las horas de tus líderes por cada semana del año. Eso es nómina senior invertida en leer estados en voz alta.</p>
+                </div>
+                <div class="pain-block pain-block--resolved">
+                  <p class="pain-label">Resuelto se ve así</p>
+                  <p class="pain-text">El estado se consulta en un tablero antes de la reunión. La reunión se usa para decidir.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="pain-detail" data-pain-panel="3" role="tabpanel" hidden>
+              <blockquote class="pain-quote">"Reportar a gerencia toma días. Y aun así faltan datos."</blockquote>
+              <p class="pain-body">El área trabaja muchísimo, pero no puede demostrarlo con números.</p>
+              <div class="pain-meta">
+                <div class="pain-block">
+                  <p class="pain-label">El costo</p>
+                  <p class="pain-text">El líder queda expuesto frente a la dirección, y el presupuesto del área se defiende con anécdotas.</p>
+                </div>
+                <div class="pain-block pain-block--resolved">
+                  <p class="pain-label">Resuelto se ve así</p>
+                  <p class="pain-text">Dashboards que se arman solos con los datos de la operación. El reporte deja de ser un proyecto aparte.</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="pain-detail" data-pain-panel="4" role="tabpanel" hidden>
+              <blockquote class="pain-quote">"Ya intentamos organizarnos con una herramienta. El equipo volvió a lo de siempre."</blockquote>
+              <p class="pain-body">El villano no fue tu equipo. Fue una herramienta genérica que no se parecía a tu forma de trabajar.</p>
+              <div class="pain-meta">
+                <div class="pain-block">
+                  <p class="pain-label">El costo</p>
+                  <p class="pain-text">Cada intento fallido hace más difícil el siguiente. El escepticismo también se acumula.</p>
+                </div>
+                <div class="pain-block pain-block--resolved">
+                  <p class="pain-label">Resuelto se ve así</p>
+                  <p class="pain-text">Un sistema diseñado sobre tus flujos reales, con adopción medida con datos de uso — no con fe.</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 4: RESUELTO — Notion workspace -->
+    <section class="slide slide--solution-visual" id="slide-4" data-slide="4" aria-label="Así se ve resuelto">
+      <div class="slide-inner slide-inner--wide">
+        <div class="solution-visual__header">
+          <p class="solution-visual__eyebrow">Construido en Notion</p>
+          <h2 class="slide-heading slide-heading--compact">Así se ve cuando está resuelto</h2>
+          <p class="solution-visual__subtitle">Todo el sistema operativo se construye sobre <strong>Notion</strong> — un solo lugar donde el trabajo se ve, se mide y avanza, <strong>sin perseguir a nadie.</strong></p>
+        </div>
+        <figure class="solution-visual__figure">
+          <img src="assets/notion%20workspace.png" alt="Workspace de Notion con proyectos, dashboards, wiki e integraciones conectadas" class="solution-visual__img">
+          <div class="solution-visual__notion-mark">
+            <img src="assets/notion-logo.png" alt="Notion" class="solution-visual__notion-logo" width="48" height="48">
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- Slide 5: SOLUCIÓN -->
+    <section class="slide slide--solution" id="slide-5" data-slide="5" aria-label="Solución">
+      <div class="slide-inner">
+        <h2 class="slide-heading">Cómo lo resolvemos</h2>
+        <div class="pillars">
+          <article class="pillar-card">
+            <h3 class="pillar-title">Diagnóstico de flujos reales</h3>
+            <p class="pillar-body">Antes de construir, mapeamos cómo trabaja de verdad cada área — no cómo dice el organigrama que trabaja.</p>
+            <p class="pillar-change"><em>Qué cambia:</em> el sistema se parece a tu operación, no a una plantilla.</p>
+          </article>
+          <article class="pillar-card">
+            <h3 class="pillar-title">Un sistema operativo, no una herramienta más</h3>
+            <p class="pillar-body">Proyectos, documentos y datos conectados en un solo lugar sobre Notion, con automatizaciones y agentes de IA que hacen el trabajo repetitivo.</p>
+            <p class="pillar-change"><em>Qué cambia:</em> la coordinación deja de depender del correo y de la memoria de la gente.</p>
+          </article>
+          <article class="pillar-card">
+            <h3 class="pillar-title">Adopción medida con data</h3>
+            <p class="pillar-body">Entrenamos a tus líderes y medimos el uso real del sistema con herramientas propias, para ajustar el training con números.</p>
+            <p class="pillar-change"><em>Qué cambia:</em> el equipo lo usa. No vuelve al Excel a los dos meses.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 6: PROCESO -->
+    <section class="slide slide--process" id="slide-6" data-slide="6" aria-label="Proceso">
+      <div class="slide-inner">
+        <h2 class="slide-heading">Cómo trabajamos</h2>
+        <div class="timeline" role="tablist" aria-label="Etapas del proceso">
+          <div class="timeline-track" aria-hidden="true"></div>
+          <article class="timeline-node is-active" data-timeline-node role="tab" aria-selected="true" tabindex="0">
+            <button type="button" class="timeline-node__btn">
+              <span class="timeline-node__title">Diagnóstico</span>
+              <span class="timeline-node__time">1–2 semanas</span>
+            </button>
+            <div class="timeline-node__detail">
+              <p>Entrevistas y mapeo de flujos por área. Sales con un mapa claro del problema, tengas o no sentido continuar con nosotros.</p>
+            </div>
+          </article>
+          <article class="timeline-node" data-timeline-node role="tab" aria-selected="false" tabindex="-1">
+            <button type="button" class="timeline-node__btn">
+              <span class="timeline-node__title">Diseño y construcción</span>
+              <span class="timeline-node__time">3–6 semanas</span>
+            </button>
+            <div class="timeline-node__detail" hidden>
+              <p>Construimos el sistema por módulos, con tus datos y flujos reales, validando con tu equipo cada semana.</p>
+            </div>
+          </article>
+          <article class="timeline-node" data-timeline-node role="tab" aria-selected="false" tabindex="-1">
+            <button type="button" class="timeline-node__btn">
+              <span class="timeline-node__title">Capacitación</span>
+              <span class="timeline-node__time">1–2 semanas</span>
+            </button>
+            <div class="timeline-node__detail" hidden>
+              <p>Sesiones por rol, presenciales en Colombia o remotas, donde tu equipo aprende operando tu propio sistema.</p>
+            </div>
+          </article>
+          <article class="timeline-node" data-timeline-node role="tab" aria-selected="false" tabindex="-1">
+            <button type="button" class="timeline-node__btn">
+              <span class="timeline-node__title">Acompañamiento</span>
+              <span class="timeline-node__time"></span>
+            </button>
+            <div class="timeline-node__detail" hidden>
+              <p>Soporte post-entrega y medición de adopción para ajustar lo que haga falta.</p>
+            </div>
+          </article>
+        </div>
+        <p class="timeline-note">Un sistema típico está operando entre 6 y 10 semanas después del kick off, según el alcance.</p>
+      </div>
+    </section>
+
+    <!-- Slide 7: RESPALDO -->
+    <section class="slide slide--proof" id="slide-7" data-slide="7" aria-label="Respaldo">
+      <div class="slide-inner">
+        <div class="proof-grid">
+          <div class="proof-block proof-block--backing">
+            <h2 class="proof-heading">Respaldo</h2>
+            <ul class="proof-list">
+              <li>Partner oficial de Notion — nuestros clientes acceden a beneficios como meses gratis de la plataforma.</li>
+              <li>6 certificaciones oficiales de Notion en el equipo.</li>
+              <li>Más de 40 equipos implementados en más de 6 países de Latam.</li>
+            </ul>
+            <div class="client-logos" aria-label="Clientes con los que hemos trabajado">
+              <div class="client-logo"><img src="assets/clientes/logo-constructora-bolivar.svg" alt="Constructora Bolívar"></div>
+              <div class="client-logo"><img src="assets/clientes/logo-vos-podes.svg" alt="Vos Podés"></div>
+              <div class="client-logo"><img src="assets/clientes/logo-dapta.svg" alt="Dapta"></div>
+              <div class="client-logo"><img src="assets/clientes/viajero.jpg" alt="Viajero Hostels"></div>
+              <div class="client-logo"><img src="assets/clientes/logo-xertify.jpeg" alt="Xertify"></div>
+              <div class="client-logo"><img src="assets/clientes/logo-tdm.svg" alt="TDM Transportes"></div>
+            </div>
+          </div>
+          <div class="proof-block proof-block--why">
+            <h2 class="proof-heading">Por qué nosotros y no otro</h2>
+            <ul class="proof-list proof-list--why">
+              <li>No vendemos Notion. Diseñamos la operación. Si el diagnóstico muestra que no somos la solución correcta, te lo decimos en la primera llamada.</li>
+              <li>Entregamos una operación funcionando — sistema, automatizaciones y equipo entrenado — no un diseño bonito que nadie usa.</li>
+              <li>Medimos la adopción con data real de uso. Es la diferencia entre entregar un sistema y garantizar que viva.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 8: CASO — Constructora Bolívar -->
+    <section class="slide slide--case" id="slide-8" data-slide="8" aria-label="Caso Constructora Bolívar">
+      <div class="slide-inner slide-inner--wide">
+        <p class="case-eyebrow">Caso de éxito</p>
+        <div class="case-header">
+          <img src="assets/clientes/logo-constructora-bolivar.svg" alt="Constructora Bolívar" class="case-logo">
+          <h2 class="case-title">Constructora Bolívar</h2>
+        </div>
+        <div class="case-layout">
+          <div class="case-copy">
+            <div class="case-block">
+              <p class="case-label">Quién es el cliente</p>
+              <p class="case-text">Una de las constructoras más grandes de Colombia — 17 ciudades, +86 proyectos. Equipo de mercadeo de 40 personas + agencia externa, +1.500 piezas al mes.</p>
+            </div>
+            <div class="case-block">
+              <p class="case-label">El reto</p>
+              <p class="case-text">Operación de mercadeo fragmentada entre equipos internos y agencia: reprocesos, versiones perdidas, aprobaciones lentas. Alinear 40 personas + agencia con hábitos distintos y resistencia inicial al cambio.</p>
+            </div>
+            <div class="case-block">
+              <p class="case-label">Qué construimos</p>
+              <p class="case-text">Sistema de gestión de mercadeo en Notion conectando equipo interno + agencia (Marca Registrada) en un solo flujo.</p>
+            </div>
+            <div class="case-block case-block--highlight">
+              <p class="case-label">El resultado</p>
+              <p class="case-text"><strong>3–4 horas semanales recuperadas</strong> de reprocesos por persona.</p>
+            </div>
+          </div>
+          <div class="case-visual">
+            <div class="case-champion">
+              <img src="assets/clientes/sebas_posada_constructora.png" alt="Juan Sebastián Posada" class="case-champion__photo">
+              <div class="case-champion__info">
+                <span class="case-champion__label">Sponsor del proyecto</span>
+                <strong class="case-champion__name">Juan Sebastián Posada</strong>
+                <span class="case-champion__role">Director Nacional Digital · Constructora Bolívar</span>
+              </div>
+            </div>
+            <img src="assets/clientes/notion_workspace_constructora.png" alt="Workspace de Constructora Bolívar en Notion" class="case-screenshot">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 9: CASO — Viajero Hostels -->
+    <section class="slide slide--case" id="slide-9" data-slide="9" aria-label="Caso Viajero Hostels">
+      <div class="slide-inner slide-inner--wide">
+        <p class="case-eyebrow">Caso de éxito</p>
+        <div class="case-header">
+          <img src="assets/clientes/viajero.jpg" alt="Viajero Hostels" class="case-logo case-logo--viajero">
+          <h2 class="case-title">Viajero Hostels</h2>
+        </div>
+        <div class="case-layout">
+          <div class="case-copy">
+            <div class="case-block">
+              <p class="case-label">Quién es el cliente</p>
+              <p class="case-text">Cadena de albergues con operación en ~10 países y ~30 propiedades. Equipo distribuido, mayoritariamente operativo y con baja madurez digital.</p>
+            </div>
+            <div class="case-block">
+              <p class="case-label">El reto</p>
+              <p class="case-text">Escalar una operación en varios países con equipos distribuidos y lograr que más de 150 personas usaran el sistema todos los días — capacitar equipos en distintos países y husos horarios.</p>
+            </div>
+            <div class="case-block">
+              <p class="case-label">Qué construimos</p>
+              <p class="case-text">Sistema de operación en Notion para toda la empresa: tareas, proyectos, indicadores, objetivos y adopción por niveles de usuario.</p>
+            </div>
+            <div class="case-block case-block--highlight">
+              <p class="case-label">El resultado</p>
+              <p class="case-text"><strong>+150 licencias activas</strong> — adopción real a escala, no un sistema que nadie abre.</p>
+            </div>
+          </div>
+          <div class="case-visual">
+            <div class="case-champion">
+              <img src="assets/clientes/diana_baron_viajero.png" alt="Diana Barón" class="case-champion__photo">
+              <div class="case-champion__info">
+                <span class="case-champion__label">Sponsor del proyecto</span>
+                <strong class="case-champion__name">Diana Barón</strong>
+                <span class="case-champion__role">Directora de Recursos Humanos · Viajero Hostels</span>
+              </div>
+            </div>
+            <img src="assets/clientes/viajero_ss.svg" alt="Workspace de Viajero Hostels en Notion" class="case-screenshot">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Slide 10: CTA -->
+    <section class="slide slide--cta" id="slide-10" data-slide="10" aria-label="Llamada a la acción">
+      <div class="slide-inner">
+        <img src="assets/logo_fondo_rojo.png.png" alt="" class="brand-logo brand-logo--cta" width="56" height="56" aria-hidden="true">
+        <h2 class="cta-heading">Diagnóstico de 30 minutos</h2>
+        <p class="cta-body">
+          Una llamada. Nos cuentas cómo opera tu equipo hoy; te decimos dónde se está fugando el tiempo y si podemos ayudar. Sin compromiso y sin demo genérico.
+        </p>
+        <div class="cta-actions">
+          <a
+            href="https://cal.com/the-workflow-company/30min"
+            class="cta-btn cta-btn--primary"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Agendar los 30 minutos
+          </a>
+          <button type="button" class="cta-btn cta-btn--ghost" data-go-to="1">
+            Volver al inicio
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
